@@ -37,3 +37,13 @@ aws s3api get-bucket-encryption --bucket codomax
 Command used:
 aws s3api get-bucket-encryption --bucket codomax
 
+
+## S3 Bucket Versioning
+
+- Enabled S3 bucket versioning.
+- Helps recover overwritten or deleted objects.
+- Verified using AWS CLI.
+
+Command:
+aws s3api get-bucket-versioning --bucket codomax
+
